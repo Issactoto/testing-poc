@@ -14,7 +14,7 @@ describe('The MadLibs Main Form', () => {
         const lastName = "To"
         cy.get('input[name="firstName"]').type(firstName).should('have.value', firstName)
         cy.get('input[name="lastName"]').type(lastName).should('have.value', lastName)
-        cy.get('[name="testingDropDown"]').select('A')
+        // cy.get('[name="testingDropDown"]').select('A')
 
     })
 })

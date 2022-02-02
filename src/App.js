@@ -54,24 +54,24 @@ function App() {
         <Dropdown.Menu>
           <Dropdown.Item
             onClick={() => {
-              setTestingTool("A");
+              setTestingTool("Jest");
             }}
           >
-            A
+            Jest
           </Dropdown.Item>
           <Dropdown.Item
             onClick={() => {
-              setTestingTool("B");
+              setTestingTool("Cypress");
             }}
           >
-            B
+            Cypress
           </Dropdown.Item>
           <Dropdown.Item
             onClick={() => {
-              setTestingTool("C");
+              setTestingTool("Others");
             }}
           >
-            C
+            Others
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
