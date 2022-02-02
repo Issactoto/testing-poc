@@ -1,7 +1,7 @@
 # Testing POC
 
 ## Testing for React
-* React 
+* Cypress 
 * Jest
 
 # Run
