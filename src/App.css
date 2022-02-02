@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  padding:40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height:100vh
 }
 
 .App-logo {
@@ -35,4 +42,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.form-control {
+  width: 50% !important;
+}
+
+
+.dropdown-menu {
+  min-width:300px;
+}
+
+.dropdown-toggle {
+  min-width:300px;
+}
+
+input{
+  max-width:300px;
+}
+
+.submitButton{
+  min-width:300px;
 }
